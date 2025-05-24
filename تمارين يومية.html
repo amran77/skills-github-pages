@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>برامج التمارين</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #7fb4e9;
+      color: #333;
+      direction: rtl;
+      text-align: center;
+    }
+    .sidebar-static {
+      position: fixed;
+      top: 100px;
+      right: 0;
+      width: 220px;
+      background-color: #333;
+      padding: 15px 0;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      z-index: 1000;
+    }
+    .sidebar-static a {
+      display: block;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+    .sidebar-static a:hover {
+   background-color: #ff8c00;
+   color: black;
+    }
+    header {
+  margin-top: 150px;
+    padding: 40px 20px;
+    }
+    h1 {
+    font-size: 60px;
+      color: #005f73;
+     margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 32px;
+    color: #0a9396;
+      margin-top: 50px;
+    }
+    p {
+    font-size: 20px;
+      margin: 20px auto;
+      color: #444;
+    background-color: #ffffff;
+      padding: 20px 30px;
+     width: 85%;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      text-align: right;
+      line-height: 1.8;
+    }
+    .video-section {
+      background-color: #ffffff;
+      padding: 40px 20px;
+      border-top: 4px solid #00bcd4;
+    }
+    .video-section h2 {
+      color: #005f73;
+    }
+    .video-container {
+      display: flex;
+      flex-direction: column;
+    gap: 30px;
+     align-items: center;
+      margin-top: 30px;
+    }
+    video {
+      width: 90%;
+   max-width: 800px;
+   height: auto;
+      border-radius: 12px;
+    }
+</style>
+</head>
+<body>
+  <div class="sidebar-static">
+   <a href="index.html">الصفحة الرئيسية</a>
+    <a href="نصائح غذائية.html">النصائح الغذائية</a>
+  <a href="نصائح عامه.html">نصائح عامة</a>
+  <a href="نموذج تواصل.html">اتصل بنا</a>
+  </div>
+  <header>
+    <h1>برامج التمارين</h1>
+    <h2>تمارين القوة</h2>
+    <p>
+      تمارين القوة تُساعد على بناء العضلات وتحسين القدرة البدنية.<br>
+      <strong>أمثلة:</strong> الأوزان، الضغط، تمارين المقاومة.<br>
+      <strong>طريقة العمل:</strong><br>
+      ابدأ بـ 3 مجموعات من كل تمرين، كل مجموعة 8-12 تكرار. خذ راحة لمدة دقيقة بين كل مجموعة. استخدم أوزان مناسبة لمستواك، ويمكنك زيادة الشدة تدريجياً.
+    </p>
+    <h2>تمارين الكارديو</h2>
+    <p>
+      تهدف تمارين الكارديو إلى تحسين صحة القلب وزيادة حرق الدهون.<br>
+      <strong>أمثلة:</strong> الجري، ركوب الدراجة، القفز بالحبل.<br>
+      <strong>طريقة العمل:</strong><br>
+      خصص 20–30 دقيقة، من 3 إلى 5 أيام أسبوعياً. ابدأ بسرعة خفيفة وزد تدريجياً حسب لياقتك. لا تنسَ الإحماء قبل والتهدئة بعد التمرين.
+    </p>
+    <h2>تمارين المرونة</h2>
+    <p>
+      تساعد هذه التمارين على تحسين الحركة وتقليل الإصابات.<br>
+      <strong>أمثلة:</strong> تمارين الإطالة، اليوغا، الحركات الديناميكية.<br>
+      <strong>طريقة العمل:</strong><br>
+      مارس الإطالة بعد التمارين أو كجلسة مستقلة. قم بكل حركة ببطء وابقَ في وضعية التمدد لمدة 15-30 ثانية، وكرّر كل حركة مرتين إلى ثلاث مرات.
+    </p>
+  </header>
+  <section class="video-section">
+    <h2>فيديوهات تمارين رياضية</h2>
+    <div class="video-container">
+   <video controls>
+     <source src="تمارين.mp4" type="video/mp4">
+    المتصفح لا يدعم تشغيل هذا الفيديو.
+  </video>
+ <video controls>
+        <source src="تمرينن.mp4" type="video/mp4">
+        المتصفح لا يدعم تشغيل هذا الفيديو.
+ </video>
+    <video controls>
+        <source src="تدريب.mp4" type="video/mp4">
+        المتصفح لا يدعم تشغيل هذا الفيديو.
+    </video>
+    </div>
+</section>
+</body>
+</html>
